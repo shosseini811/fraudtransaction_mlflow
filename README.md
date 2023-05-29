@@ -17,3 +17,5 @@ The mlflow.pyfunc.load_model method loads the model. Predictions are made on the
 MLflow manages the machine learning lifecycle by tracking experiments, runs, models, metrics and parameters. 
 It was used to build and manage a fraud detection logistic regression model by logging the model, metrics and reloading for prediction. 
 MLflow is a useful tool for any machine learning project.
+You can access the full article here:
+https://towardsdatascience.com/leveraging-mlflow-for-model-management-in-fraud-detection-b93e3f4b2c36
