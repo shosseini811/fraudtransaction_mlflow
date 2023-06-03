@@ -30,7 +30,7 @@ mlflow.set_experiment('fraud_detection_experiment')
 # Start a new run in this experiment
 with mlflow.start_run():
     # Define the model 
-    clf = LogisticRegression(max_iter=5000, random_state=42)
+    clf = LogisticRegression(random_state=42)
 
     # Train the model
     clf.fit(X_train, y_train)
